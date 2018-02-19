@@ -1,4 +1,4 @@
-./#/bin/sh
+#!/bin/sh
 yum repolist
 yum -y install telnet
 rpm -qa | grep -i telnet
